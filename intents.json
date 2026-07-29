@@ -1,0 +1,139 @@
+{
+  "intents": [
+    {
+  "tag": "greeting",
+  "patterns": [
+    "Hi",
+    "Hello",
+    "Hey",
+    "Good morning",
+    "Is anyone there?",
+    "Hey bot"
+  ],
+  "responses": [
+    "Hello! Ready for some laughs? Ask me for a dad joke, programming joke, or a pun!",
+    "Hey there! Need a laugh? Just ask!",
+    "Hi! What kind of joke are you in the mood for?"
+  ],
+  "context_set": ""
+    },
+    {
+      "tag": "dad_jokes",
+      "patterns": [
+        "Tell me a dad joke",
+        "Got any dad jokes?",
+        "Give me something corny",
+        "Dad joke please",
+        "Make me cringe with a joke"
+      ],
+      "responses": [
+        "Why don't scientists trust atoms? Because they make up everything!",
+        "What do you call a fake noodle? An impasta!",
+        "Why did the scarecrow win an award? Because he was outstanding in his field!",
+        "How do you organize a space party? You planet!",
+        "Why don't skeletons fight each other? They don't have the guts."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "programming_jokes",
+      "patterns": [
+      "programming joke",
+      "tell me a programming joke",
+      "coding joke",
+      "developer joke",
+      "software joke",
+      "code joke",
+      "programmer humor",
+      "tell me a code joke"
+    ],
+    "responses": [
+      "Why do programmers prefer dark mode? Because light attracts bugs!",
+      "There are 10 types of people in the world: Those who understand binary, and those who don't.",
+      "A SQL query walks into a bar, walks up to two tables and asks, 'Can I join you?'",
+      "Why do Java programmers have to wear glasses? Because they don't C#!",
+      "Real programmers count from 0."
+  ],
+  "context_set": ""
+    },
+    {
+      "tag": "knock_knock",
+      "patterns": [
+        "Tell me a knock knock joke",
+        "Knock knock",
+        "Do you have any knock knock jokes?",
+        "Knock knock joke please"
+      ],
+      "responses": [
+        "Knock, knock! / Who's there? / Tank. / Tank who? / You're welcome!",
+        "Knock, knock! / Who's there? / Cow says. / Cow says who? / No, a cow says Moooo!",
+        "Knock, knock! / Who's there? / Lettuce. / Lettuce who? / Lettuce in, it's freezing out here!",
+        "Knock, knock! / Who's there? / Nobel. / Nobel who? / Nobel, that's why I knocked!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "animal_jokes",
+      "patterns": [
+        "Tell me an animal joke",
+        "Do you know any dog jokes?",
+        "Cat jokes",
+        "Funny animal jokes"
+      ],
+      "responses": [
+        "What do you call a fish wearing a bowtie? Sofishticated!",
+        "Why are frogs so happy? They eat whatever bugs them!",
+        "What do you call a sleeping dinosaur? A dino-snore!",
+        "What do you call a cold dog? A chili dog!"
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "puns",
+      "patterns": [
+        "Tell me a pun",
+        "Got any good puns?",
+        "Give me a pun",
+        "I love puns"
+      ],
+      "responses": [
+        "I'm reading a book on anti-gravity. It's impossible to put down!",
+        "I used to play piano by ear, but now I use my hands.",
+        "Time flies like an arrow, but fruit flies like a banana.",
+        "I was going to tell a time-travel joke, but you didn't like it."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "one_liners",
+      "patterns": [
+        "Tell me a quick joke",
+        "One liner joke",
+        "Short joke",
+        "Give me a fast joke"
+      ],
+      "responses": [
+        "I told my doctor that I broke my arm in two places. He told me to stop going to those places.",
+        "Parallel lines have so much in common. It's a shame they'll never meet.",
+        "My memory has gotten so bad it has actually caused me to lose my job. I'm still at the office, I just can't remember where I work."
+      ],
+      "context_set": ""
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Thanks for the jokes",
+        "Exit"
+      ],
+      "responses": [
+        "Goodbye! Hope I made you smile!",
+        "See you later! Come back whenever you need a laugh.",
+        "Bye! Don't forget to tip your server!"
+      ],
+      "context_set": ""
+    }
+  ]
+}
